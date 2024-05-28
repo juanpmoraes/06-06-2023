@@ -1,0 +1,51 @@
+body {
+    background-color: #ffefef;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: #333;
+}
+
+h1, h2 {
+    color: #b30000;
+}
+
+nav {
+    background-color: #ffe6e6;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #b30000;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+p {
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+h1::after {
+    content: "❤️";
+    font-size: 1.2em;
+}
+
+h2::after {
+    content: "❤️";
+    font-size: 1em;
+}
